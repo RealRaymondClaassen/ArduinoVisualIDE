@@ -9,6 +9,7 @@ This is a work in progress, so some notes:
  - Features will be added, changed or removed over time.
  - There is a cookie created to help load the last sketch you where working on.
  - No other activity of yours is tracked except for some Telemetry captured through Application Insights.
+ - Not all the libraries and boards are installed. Please make contact to get one installed.
 
 
 ## Arduino Create Agent
@@ -17,7 +18,7 @@ In order to allow you to upload a sketch directly from the creator you will need
 2. Update the configuration of the 'Arduino Create Agent' to allow the site to communicate with it:
    1. Navigate to the installation directory of the Arduino Create Agent.
    2. Open the 'config.ini' file in a text editor.
-   3. Find that line that says: origins = http://local.arduino.cc:8000
+   3. Find the line contains: origins = http://local.arduino.cc:8000
    4. Alter it so that it looks like: origins = `http://local.arduino.cc:8000, https://arduinovisualcreator.azurewebsites.net`
    5. Save the file and restart the Arduino Create Agent.
 
