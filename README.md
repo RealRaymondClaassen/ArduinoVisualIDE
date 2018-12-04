@@ -3,6 +3,7 @@ Creating this project on GitHub to facilitate Bug and Issue tracking as well as 
 
 Will commit the source code at some later date.
 
+
 ## General
 This is a work in progress, so some notes:
  - Things are not perfect but constantly improving!
@@ -21,6 +22,14 @@ In order to allow you to upload a sketch directly from the creator you will need
    3. Find the line contains: origins = http://local.arduino.cc:8000
    4. Alter it so that it looks like: origins = \`http://local.arduino.cc:8000, https://arduinovisualcreator.azurewebsites.net`
    5. Save the file and restart the Arduino Create Agent.
+
+
+## Special Thanks
+Special thanks to:
+ - Arduino Create Agent - https://github.com/arduino/arduino-create-agent
+ - Arduin CLI - https://github.com/arduino/arduino-cli
+
+Without these projects the Verify and Upload functions woul not be possible.
 
 
 ##  Current Version: 0.0.3
