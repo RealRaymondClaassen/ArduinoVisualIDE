@@ -1,6 +1,8 @@
 # ArduinoVisualIDE
 Creating this project on GitHub to facilitate Bug and Issue tracking as well as communication. 
 
+Deployed system available here - https://arduinovisualcreator.azurewebsites.net
+
 Will commit the source code at some later date.
 
 
@@ -19,7 +21,7 @@ In order to allow you to upload a sketch directly from the creator you will need
 2. Update the configuration of the 'Arduino Create Agent' to allow the site to communicate with it:
    1. Navigate to the installation directory of the Arduino Create Agent.
    2. Open the 'config.ini' file in a text editor.
-   3. Find the line contains: origins = http://local.arduino.cc:8000
+   3. Find the line containing: origins = http://local.arduino.cc:8000
    4. Alter it so that it looks like: origins = \`http://local.arduino.cc:8000, https://arduinovisualcreator.azurewebsites.net`
    5. Save the file and restart the Arduino Create Agent.
 
