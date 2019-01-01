@@ -33,12 +33,16 @@ Special thanks to:
  - Arduino Create Agent - https://github.com/arduino/arduino-create-agent
  - Arduino CLI - https://github.com/arduino/arduino-cli
 
-Without these projects the Verify and Upload functions woul not be possible.
+Without these projects the Verify and Upload functions would not be possible.
 
 
 ##  Current Version: 0.0.3
 ###### Release Notes:
-0.0.3-Not yet
+0.0.4-Current
+ - BUG - Solved an issue where the value and name boxes are not displayed on FireFox.
+ - BUG - When cloning a control you can now immediately place it.
+
+0.0.3-2018/12/01
  - ENH - Added a Verify function to the creator.
  - ENH - Added an Upload function to the creator that uses the 'Arduino Create Agent'.
  - ENH - Re-factored large portions of the services in order to improve the code.
