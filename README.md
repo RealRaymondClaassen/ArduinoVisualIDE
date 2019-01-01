@@ -17,7 +17,7 @@ This is a work in progress, so some notes:
 
 ## Arduino Create Agent
 In order to allow you to upload a sketch directly from the creator you will need to:
-1. Download and install the 'Arduino Create Agent' from [here](https://github.com/RealRoTeD/ArduinoVisualIDE)
+1. Download and install the 'Arduino Create Agent' from [here](https://github.com/RealRoTeD/ArduinoVisualIDE).
 2. Update the configuration of the 'Arduino Create Agent' to allow the site to communicate with it:
    1. Navigate to the installation directory of the Arduino Create Agent.
    2. Open the 'config.ini' file in a text editor.
@@ -25,11 +25,13 @@ In order to allow you to upload a sketch directly from the creator you will need
    4. Alter it so that it looks like: origins = \`http://local.arduino.cc:8000, https://arduinovisualcreator.azurewebsites.net`
    5. Save the file and restart the Arduino Create Agent.
 
+Sample ini file can be located [here](https://github.com/RealRoTeD/ArduinoVisualIDE/config.ini).
+
 
 ## Special Thanks
 Special thanks to:
  - Arduino Create Agent - https://github.com/arduino/arduino-create-agent
- - Arduin CLI - https://github.com/arduino/arduino-cli
+ - Arduino CLI - https://github.com/arduino/arduino-cli
 
 Without these projects the Verify and Upload functions woul not be possible.
 
