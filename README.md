@@ -36,9 +36,41 @@ Special thanks to:
 Without these projects the Verify and Upload functions would not be possible.
 
 
-##  Current Version: 0.0.3
+##  Current Version: 0.0.10
 ###### Release Notes:
-0.0.4-Current
+0.0.10-2019/02/01
+ - ENH - Added blank drop down for empty selector on object/type.
+ - ENH - Created a shared dropdown control that is reused throughout the solution.
+ - ENH - Added a way to specify unsigned and volatile from a drop down.
+ - ENH - Added in conversion for unsigned from previous versions of sketches.
+ - ENH - Altered the menu and base sketch to include the changes made to unsigned.
+
+0.0.9-2019/01/18
+ - BUG - Resolved an issue where the move no longer works.
+ - BUG - Fix a problem where the move will just create a new wrapper each time it is dropped instead of reusing old one.
+ - ENH - Small edit to the about page to fix a layout issue.
+
+0.0.8-2019/01/16
+ - ENH - Changed the way the drop down menu works rather than accessing the DOM.
+ - ENH - Making the control menu collapse in order to accommodate smaller displays.
+ - ENH - Added in a Ctrl+Click handler that will continue a delete and duplicate operation.
+ - ENH - Improved memory utilization by clearing control parameters.
+ - ENH - Added an Arduino CLI screen to display the installed Platforms and Libraries.
+
+0.0.7-2019/01/11
+ - BUG - Fixed the level at which certain boxes are displayed.
+ - ENH - Added a cookie consent pop up.
+ - ENH - Added a loading screen when importing the sketch or loading the auto save.
+
+0.0.6-2019/01/06
+ - BUG - Resolved a problem where there is not enough room to display Line Numbers bigger than 1 character.
+ - ENH - Changed the way the messages are displayed in the console.
+
+0.0.5-2019/01/02
+ - BUG - Resolved a problem were clearing of names stopped working.
+ - ENH - Added some content to the about page.
+
+0.0.4-2018/12/07
  - BUG - Solved an issue where the value and name boxes are not displayed on FireFox.
  - BUG - When cloning a control you can now immediately place it.
 
