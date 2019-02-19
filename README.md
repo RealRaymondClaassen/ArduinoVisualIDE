@@ -36,8 +36,33 @@ Special thanks to:
 Without these projects the Verify and Upload functions would not be possible.
 
 
-##  Current Version: 0.0.10
+##  Current Version: 0.0.14
 ###### Release Notes:
+0.0.14-2019/02/19
+ - ENH - Added a grab indicator to the menu when an item is being dragged.
+ - ENH - Removed the dragging ghost image to clear up the display.
+ - BUG - Fixed a bug that resulted in an issue if a named item was referenced before it is created.
+ - BUG - Added a drag end handler in order to prevent some strange behavior.
+
+0.0.13-2019/02/12
+ - BUG - Resolved a bug that prevented the clone from not working on an item.
+ - BUG - Resolved a bug that would make the control menu disappear when a group is clicked.
+ - ENH - Added a highlight function that will show where a menu item can be dropped.
+
+0.0.12-2019/02/10
+ - ENH - Updated the About page adding in a note about the Auto Save.
+ - ENH - Added an index to the about page.
+ - ENH - Re-factored the services moving them into a specific folder.
+ - ENH - Re-factored the tool-tip into separate files.
+
+0.0.11-2019/02/07
+ - ENH - Moved the Preset Menu Names into a separate JSON file for easy editing.
+ - ENH - Allow a menu click to override the current dragged item.
+ - BUG - Removed Double Click delete logic that would cause odd behavior.
+ - ENH - Added some extra keywords for search engines.
+ - ENH - Broke out the allowed types and parent types into a separate JSON file for easy editing.
+ - BUG - Fixed a bug where an item was not being displayed once dragged from one component to the next.
+
 0.0.10-2019/02/01
  - ENH - Added blank drop down for empty selector on object/type.
  - ENH - Created a shared dropdown control that is reused throughout the solution.
