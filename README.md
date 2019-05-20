@@ -31,7 +31,7 @@ In order to allow you to upload a sketch directly from the creator you will need
     ```
    5. Save the file and restart the Arduino Create Agent.
 
-Sample ini file can be located [here](https://github.com/RealRoTeD/ArduinoVisualIDE/config.ini).
+Sample ini file can be located [here](config.ini).
 
 
 ## Special Thanks
