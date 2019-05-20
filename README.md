@@ -36,8 +36,26 @@ Special thanks to:
 Without these projects the Verify and Upload functions would not be possible.
 
 
-##  Current Version: 0.0.14
+##  Current Version: 0.0.16
 ###### Release Notes:
+0.0.16-2019/04/30
+ - BUG - Fixed an issue where names are not updating when changed.
+ - BUG - Fixed an issue where the system was unable to connect to a connected board.
+ - ENH - Added RegEx validation to the constant value.
+ - ENH - Returning the compilation errors as well in the output.
+ - ENH - Added an error message when compilation failed.
+ - BUG - Fixed a problem where the size of an array was not maintained between an export/import or autosave.
+
+0.0.15-2019/04/04
+ - ENH - Expanded support for a locally hosted compiler.
+ - ENH - Moved Releases into it's own page.
+ - ENH - Allowed the system to save the line number option when saving the sketch for loading again.
+ - ENH - Removed older methods for generating the menus from the system.
+ - ENH - Implementing SonarQube analysis recommendations.
+ - ENH - Refactoring the Creator Service's initChild function.
+ - BUG - Fixed a bug where the unsigned or volatile is not fully hidden when they should be.
+ - ENH - Added Authorization to the API requests.
+
 0.0.14-2019/02/19
  - ENH - Added a grab indicator to the menu when an item is being dragged.
  - ENH - Removed the dragging ghost image to clear up the display.
